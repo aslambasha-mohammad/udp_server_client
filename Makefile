@@ -20,7 +20,6 @@ all:
 
 build_server: $(SERVER_OBJS)
 	@$(CC) $(CFLAGS) -o $(SERVER_BIN) $(SERVER_OBJS)
-	#@$(CC) $(CFLAGS) -o $(SERVER_OBJS) $(SERVER_BIN)
 
 build_client: $(CLIENT_OBJS)
 	@$(CC) $(CFLAGS) -o $(CLIENT_BIN) $(CLIENT_OBJS)
